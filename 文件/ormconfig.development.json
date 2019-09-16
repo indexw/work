@@ -1,0 +1,81 @@
+[
+    {
+        "name": "default",
+        "type": "mysql",
+        "host": "192.168.1.159",
+        "port": 3306,
+        "username": "root",
+        "password": "qgKj2017",
+        "database": "cw",
+        "synchronize": false,
+        "logging": true,
+        "logger": "advanced-console",
+        "entities": [
+            "src/db/entity/**/*.ts"
+        ],
+        "migrations": [
+            "src/db/migration/**/*.ts"
+        ],
+        "subscribers": [
+            "src/db/subscriber/**/*.ts"
+        ],
+        "cli": {
+            "entitiesDir": "src/entity",
+            "migrationsDir": "src/migration",
+            "subscribersDir": "src/subscriber"
+        }
+    },
+       {
+        "name": "sqlserver",
+        "type": "mssql",
+        "host": "192.168.1.126",
+        "port": 1433,
+        "username": "sa",
+        "password": "dell-1234",
+        "database": "xz2013",
+        "synchronize": false,
+        "logging": true,
+        "logger": "advanced-console",
+        "entities": [
+            "src/db/entity2/**/*.ts"
+        ],
+        "migrations": [
+            "src/db/migration/**/*.ts"
+        ],
+        "subscribers": [
+            "src/db/subscriber/**/*.ts"
+        ],
+        "cli": {
+            "entitiesDir": "src/entity",
+            "migrationsDir": "src/migration",
+            "subscribersDir": "src/subscriber"
+        }
+    },
+    {
+        "name": "pg",
+        "type": "postgres",
+        "host": "192.168.1.159",
+        "port": 5432,
+        "username": "postgres",
+        "password": "root",
+        "database": "postgres",
+        "synchronize": false,
+        "logging": true,
+        "logger": "advanced-console",
+        "entities": [
+            "src/db/entity3/**/*.ts"
+        ],
+        "migrations": [
+            "src/db/migration/**/*.ts"
+        ],
+        "subscribers": [
+            "src/db/subscriber/**/*.ts"
+        ],
+        "cli": {
+            "entitiesDir": "src/entity",
+            "migrationsDir": "src/migration",
+            "subscribersDir": "src/subscriber"
+        }
+    }
+ 
+]
