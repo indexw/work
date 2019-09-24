@@ -68,9 +68,9 @@ backend：new
 
 npm i
 
-liutinghui	000000
+员工端：liutinghui	000000
 
-BEL005	12345abc
+	BEL005	12345abc
 
 
 2019-9-16
