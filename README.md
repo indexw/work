@@ -2,14 +2,6 @@
 
 ## 记录
 
-格式化数据：
-
-import {
-  toLocaleStringContent
-} from 'methods/initText'
-
-toLocaleStringContent(c, '元')
-
 // gitlab  
 1743090005@qq.com
 Zhoufei1
@@ -29,8 +21,7 @@ vpn：
 7、ssl vpn拨通后，直接访问要访问的资源即可。
 运维管理（热力）：密码 wang0710
 
-用户名：zhangy-xzqj
-		密码：qgkj2019	证书导入密码：2408850
+用户名：zhangy-xzqj		密码：qgkj2019	证书导入密码：2408850
 
 接口地址 ：http://www.el.com	wifi：Tenda	用户名
 
@@ -137,6 +128,15 @@ wangpengyu     123456      能量
 
 
 # 工作记录
+
+## 热力
+格式化数据：
+
+import {
+  toLocaleStringContent
+} from 'methods/initText'
+
+toLocaleStringContent(c, '元')
 
 ## 热力 / 一站一日
 
