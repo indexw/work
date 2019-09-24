@@ -59,6 +59,8 @@ C:\Program Files\redis	redis-server
 
 ## 水表app：
 
+wifi：nova...
+
 localhost:8080/#/start/worker
 localhost:8080/#/start/user
 
