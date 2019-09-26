@@ -104,6 +104,12 @@ mobilephone, password, confirmPassword
  success: true,
     msg: '注册成功，请登录!',
     
+### 2019-09-26
+app.get('/invoices/paidlist', invoices.paidlist)   //列表
+app.get('/invoices/getPaymentDetail', invoices.getPaymentDetail)   //详情
+app.post('/invoices/savInvoicesInfo', invoices.savInvoicesInfo)  //提交发票记录
+app.get('/invoices/getInoiceList', invoices.getInoiceList) //发票记录列表
+    
 
 ## 热力 / 一站一日：
 
