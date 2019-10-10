@@ -25,11 +25,11 @@ vpn：
 
 接口地址 ：http://www.el.com	wifi：Tenda	用户名
 
-## 主路由器 
+### 主路由器 
 路由器登录名：admin
 路由器登密码：P_H_pinghai2014sui	初始化 Linksys1900
 
-wifi密码：1124?phyk
+### wifi密码：1124?phyk
 
 ## 入室测温
 
@@ -59,57 +59,10 @@ app：msater
 
 backend：new 
 
-npm i
-
-员工端：liutinghui	000000
-
+员工端：
+	liutinghui	000000
 	BEL005	12345abc
 
-
-2019-9-16
-
-1.登录接口:  post
-/api/loginByPwd
-参数:
-mobilephone, password 
-返回值：
-错误 
- success: false,
- error: 'MOBILEPHONE_REQUIRED',
-
-正确
- success: true,
-    access_token: xxxx,
-    token_type: "bearer"
-
-登录成功之后带token跳home页
-
-2.获取验证码:post
-/api/getSmsCode
-参数
-mobilephone
-
-
-3.注册接口: post  先发验证码，没输入验证码不能注册
-/api/registerByPwd
-参数:
-mobilephone, password, confirmPassword
-返回值：
-错误 
- success: false,
- error: 'MOBILEPHONE_REQUIRED',
- error_description: '手机号码字段（mobilephone）为必须'
-
-正确
- success: true,
-    msg: '注册成功，请登录!',
-    
-### 2019-09-26
-- app.get('/invoices/paidlist', invoices.paidlist)   //列表
-- app.get('/invoices/getPaymentDetail', invoices.getPaymentDetail)   //详情
-- app.post('/invoices/savInvoicesInfo', invoices.savInvoicesInfo)  //提交发票记录
-- app.get('/invoices/getInoiceList', invoices.getInoiceList) //发票记录列表
-    
 
 ## 热力 / 一站一日：
 
@@ -122,67 +75,11 @@ mobilephone, password, confirmPassword
 编译：npm run build:prod
 
 .env 文件 ：APP_ENV=local   跑本地编译后代码
-	  APP_ENV=local2   跑线上编译后代码
+	    APP_ENV=local2   跑线上编译后代码
 
 liuli	123456
 zsg 	1
 zhaogang 123456	导入在 各业务数据=》财务=》 水电实际采购金额 
 sunying     123456     导入在 各业务数据=》人力
 wangpengyu     123456      能量
-
-
-
-
-# 工作记录
-
-## 热力
-格式化数据：
-
-import {
-  toLocaleStringContent
-} from 'methods/initText'
-
-toLocaleStringContent(c, '元')
-
-## 热力 / 一站一日
-
-order_by: "[{"column":"area","sequence":"desc"}]"
-
-order_by: "[{"column":"area","sequence":"asc"}]"
-
-各业务数据 > 导入优化：
-+ [X] 能源、热量上传优化  
-+ [X] 工资导入优化
-
-页面升级：
-+ [X] 数据查询器  
-
-全网检测 > 供热概览：
-+ [X] 气象温度：加数 
-+ [X] 核算情况：单位修正
-
-全网检测 > 每日运行总汇： 
-+ [X] 添加 供暖季监测 表格
-
-热力站 > 基本信息：
-+ [X] 按日核算 http://localhost/stations/88/basic   tag：明细 改为每天数据： single = 1   
-
-热力站 > 日核算:
-+ [X] 日核算：日期 列 不渲染
-
-热力站 > 月成本统计：
-+ [X] 管理类型 信息展示错误
-
-成本分析 > 月成本统计 > 按热力站汇总：
-+ [X] 管理类型 信息展示错误
-
-成本分析 > 成本构成：
-+ [X] 上年同期单位面积成本   单位错误（元/㎡）数据格式化
-
-### 2019-9-25
-
-- 水表客户端：账号密码登录注册，不同类型表缴费、电子发票
-- 热力：改bug
-- 测温：首页bug、首页柱状图，优化、logo更改
-
 
