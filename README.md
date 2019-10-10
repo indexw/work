@@ -44,10 +44,10 @@ ormconfig.production.json
 
 router: fontend/src/pages/.umi/router
 
-主要框架：
-https://umijs.org/zh/guide/
-https://ant.design/docs/react/introduce-cn
-https://dvajs.com/guide/
+### 主要框架：
+- https://umijs.org/zh/guide/
+- https://ant.design/docs/react/introduce-cn
+- https://dvajs.com/guide/
 
 ## 水表 PC：
 
