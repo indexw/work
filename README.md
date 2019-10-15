@@ -79,6 +79,8 @@ backend：new
 
 编译：npm run build:prod
 
+合并代码分支：dev
+
 .env 文件 ：APP_ENV=local   跑本地编译后代码
 	    APP_ENV=local2   跑线上编译后代码
 
