@@ -77,6 +77,12 @@ backend：new
 
 启动本地：xampp 	npm run dev	localhost		wifi ：Tenda
 
+### 公共组件
+
+- 公共方法： src / common /uicommon 
+- 公共组件： src / common / uicomponents
+- 图片： public/ imgs 
+
 编译：npm run build:prod
 
 合并代码分支：dev
