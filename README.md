@@ -82,7 +82,7 @@ backend：new
 - 公共方法： src / common /uicommon 
 - 公共组件： src / common / uicomponents
 - 图片： public/ imgs 
-
+- 样式：sass / main.scss
 编译：npm run build:prod
 
 合并代码分支：dev
