@@ -97,6 +97,13 @@ backend：new
 - 样式：sass / main.scss
 - 编译：npm run build:prod
 
+### 文件配置
+1. routers.js  配置路径
+2. reducerList.js 配置state名
+3. getChroot.js 引入list  或 不做处理
+4. sdks/fetchData.js  配置接口地址
+5. reducers.js 引入list 或不配置
+
 合并代码分支：dev
 
 .env 文件 ：APP_ENV=local   跑本地编译后代码
