@@ -53,12 +53,6 @@ ormconfig.production.json
 
 - 主分支：dev-assignment
 
-
-
-
- git push --set-upstream origin wr
-
-
 router: fontend/src/pages/.umi/router
 
 ### 主要框架：
