@@ -98,7 +98,7 @@ backend：new
 - 编译：npm run build:prod
 
 ### 文件配置
-1. routers.js  配置路径
+1. routers.js  配置路径 + routes/web.php 配置路径
 2. reducerList.js 配置state名
 3. getChroot.js 引入list  或 不做处理
 4. sdks/fetchData.js  配置接口地址
