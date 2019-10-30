@@ -1,6 +1,11 @@
 # 周记
 
 ## 2019 
+
+### 10-28
+- 测温/任务明细：选择合服设置默认合服公司
+- 测温/ 测温任务：sp接口调试，列表功能调试
+- 
 ### 10-21
 - 热力站 / 月成本统计 :筛选排名的时候,展示数据格式修改为整数
 - 独网锅炉房 / 成本统计 :筛选排名的时候,展示数据格式修改为整数
@@ -100,7 +105,7 @@ backend：new
 ### 文件配置
 1. routers.js  配置路径 + routes/web.php 配置路径
 2. reducerList.js 配置state名
-3. getChroot.js 引入list  或 不做处理
+3. methods/getChroot.js 引入list  或 不做处理
 4. sdks/fetchData.js  配置接口地址
 5. reducers.js 引入list 或不配置
 
