@@ -23,7 +23,7 @@
 # 常用
 
 ## 记录
-
+## className: 'nowrap',  // table 文字不换行
 // gitlab  
 1743090005@qq.com
 Zhoufei1
