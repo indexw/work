@@ -156,11 +156,15 @@ align: 'right',
 .env 文件 ：APP_ENV=local   跑本地编译后代码
 	    APP_ENV=local2   跑线上编译后代码
 
-liuli	123456
-zsg 	1
-zhaogang 123456	导入在 各业务数据=》财务=》 水电实际采购金额 
-sunying     123456     导入在 各业务数据=》人力
-wangpengyu     123456      能量
+账号：
+
+- liuli	123456
+- zsg 	1
+- zhaogang 123456	导入在 各业务数据=》财务=》 水电实际采购金额 
+- sunying     123456     导入在 各业务数据=》人力
+- wangpengyu     123456      能量
+- 集团  liuli  dongyan   
+- 分公司 wangpengyu 
 
 
 
