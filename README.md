@@ -5,7 +5,7 @@
 一站一日：
 
 - 热力站 - 无效站列表 ：增加折线图 弹出框增加站名和无效原因，数据请求时先展示弹出框并显示 loading 动画。
-- 热力站 - 基本信息 ：表头增加单位
+- 热力站 - 基本信息 ：表头增加单位，编辑根据要求不同输入增加下拉选择框的功能，校验输入为数字的情况
 - 热力站 - 月成本统计 ：表头显示的多选下拉列表中，“全部”默认为不勾选
 - 热力站 - 月成本统计 ：选择一个分公司后中心会自动选择，且无法选择所有的中心
 
@@ -27,6 +27,7 @@
 
 - 全网监测 - 排行榜 - 按公司 ：按照新设计实现
 - 全网监测 - 排行榜 - 按中心 ：按照新设计实现
+ -
 ## 2019
 ### 12-30 
 一站一日：
@@ -57,6 +58,10 @@
 
 ## 记录
 ## className: 'nowrap',  // table 文字不换行
+## <LocaleProvider locale={zh_CN}>  </LocaleProvider>
+import LocaleProvider from 'antd/lib/locale-provider';
+import zh_CN from 'antd/lib/locale-provider/zh_CN';
+import 'moment/locale/zh-cn';
 // gitlab  
 1743090005@qq.com
 Zhoufei1
@@ -159,6 +164,7 @@ align: 'right',
 
 .env 文件 ：APP_ENV=local   跑本地编译后代码
 	    APP_ENV=local2   跑线上编译后代码
+
 
 账号：
 
