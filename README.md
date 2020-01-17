@@ -57,12 +57,12 @@
 # 常用
 
 ## 记录
-## className: 'nowrap',  // table 文字不换行
-## <LocaleProvider locale={zh_CN}>  </LocaleProvider>
-import LocaleProvider from 'antd/lib/locale-provider';
-import zh_CN from 'antd/lib/locale-provider/zh_CN';
-import 'moment/locale/zh-cn';
-// gitlab  
+- className: 'nowrap',  // table 文字不换行
+- <LocaleProvider locale={zh_CN}>  </LocaleProvider>  // 时间控件转中文
+- import LocaleProvider from 'antd/lib/locale-provider';
+- import zh_CN from 'antd/lib/locale-provider/zh_CN';
+- import 'moment/locale/zh-cn';
+- gitlab  
 1743090005@qq.com
 Zhoufei1
 
