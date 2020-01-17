@@ -27,7 +27,9 @@
 
 - 全网监测 - 排行榜 - 按公司 ：按照新设计实现
 - 全网监测 - 排行榜 - 按中心 ：按照新设计实现
+
 - 气象信息 - 气象站点历史： 日期筛选框为的月份和年份是英文 改为中文
+
 ## 2019
 ### 12-30 
 一站一日：
@@ -57,18 +59,22 @@
 # 常用
 
 ## 记录
+```javascript
 - className: 'nowrap',  // table 文字不换行
-- <LocaleProvider locale={zh_CN}>  </LocaleProvider>  // 时间控件转中文
-- import LocaleProvider from 'antd/lib/locale-provider';
-- import zh_CN from 'antd/lib/locale-provider/zh_CN';
-- import 'moment/locale/zh-cn';
+```
+```javascript
+<LocaleProvider locale={zh_CN}>  </LocaleProvider>  // 时间控件转中文
+ import LocaleProvider from 'antd/lib/locale-provider';
+ import zh_CN from 'antd/lib/locale-provider/zh_CN';
+ import 'moment/locale/zh-cn';
+ ```
 - gitlab  
 1743090005@qq.com
 Zhoufei1
 
-原型地址：https://org.modao.cc/app/3a9b4204c440b789fab49fcf229c619e4dc96ec0#screen=sc5bf049fc90ce2c75fa087
+- 原型地址：https://org.modao.cc/app/3a9b4204c440b789fab49fcf229c619e4dc96ec0#screen=sc5bf049fc90ce2c75fa087
 
-UI 地址：https://sketch.cloud/s/0YRwA
+- UI 地址：https://sketch.cloud/s/0YRwA
 
 vpn：
 
