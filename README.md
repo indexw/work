@@ -2,7 +2,11 @@
 
 # 常用
 
+datav:登录名 admin@qinguotech.com 密码 qgte!0831
+
+
 ## 记录
+
 ```javascript
 - className: 'nowrap',  // table 文字不换行
 ```
